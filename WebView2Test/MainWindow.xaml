@@ -111,8 +111,6 @@
                     <wv2:WebView2 x:Name="pstream4" Source="https://perspective.finos.org/blocks/streaming/index.html" Grid.Row="1" Grid.Column="1"/>
                 </Grid>
             </TabItem>
-
-
         </TabControl>
     </Grid>
 </Window>

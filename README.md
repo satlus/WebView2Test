@@ -26,7 +26,7 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
 ## Test Plan
   - [x] Custom title bar with tab UX, min/max/close
   - [x] 4 WebView2 renders loaded per tab
-  - [x] Resize and container window drag implemented 
+  - [x] Resize and container window drag 
   - [ ] Offscreen rendering on resize
   - [ ] Transitions on resize
   - [ ] Comparitive analysis vs
