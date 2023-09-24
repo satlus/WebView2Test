@@ -10,6 +10,7 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
   - Initial loading of the webview content is reasonably fast, but may require UX treatment to feel seeamless in certain cases; this could be managed at the container level with the appropriate hooks
   - Resizing windows is jank, and does not feel smooth; other approaches (off screen rendering, transitions) may be needed
   - More complete tab switching UX (drag & drop), is not implemented. It needs to be implemented to assess performance impact
+  - A comparitive analysis should be done between WPF-WV2, CPPWIN32-WV2, ELectron-Chromium, and MAUI-WV2 to understand framework overhead and perf characteristics
 
 ## Considerations
   - Performance: CPU, Memory, and overall responsiveness for non-trivial DOM based UIs (Grids, Animation, WebGL)
