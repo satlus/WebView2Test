@@ -1,6 +1,7 @@
 # WPF WebView2Testing
 Test WPF tabbed Desktop Window UX that renders multiple webview2 instances as TabItem chidren.
 
+![ Alt text](WebView2Test/docs/webview2-wpf-test.gif)
 ## Considerations
   - Performance: CPU, Memory, and overall responsiveness for non-trivial DOM based UIs (Grids, Animation, WebGL)
   - UX: loading, resizing and tabswitching "perception" of snappiness
