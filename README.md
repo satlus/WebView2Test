@@ -29,6 +29,7 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
   - [x] Resize and container window drag 
   - [ ] Offscreen rendering on resize
   - [ ] Transitions on resize
+  - [ ] Tab drag and drop, re-ordering
   - [ ] Comparitive analysis vs
 	- [ ] Electron
 	- [ ] win32/cpp WV2
