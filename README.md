@@ -1,5 +1,5 @@
 # WPF WebView2Testing
-WPF tabbed Desktop Window UX that renders multiple webview2 instances as TabItem chidren.
+WPF tabbed Desktop Window UX that renders multiple webview2 instances.
 
 *This is proof-of-concept code, ugly, and shouldn't in any way be used in production*
 
