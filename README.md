@@ -3,7 +3,7 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
 
 *This is proof-of-concept code, ugly, and shouldn't in any way be used in production*
 
-![webview2-ux](WebView2Test/docs/WebView2FlickerFree.Tab1.mp4)
+![webview2-ux](WebView2Test/docs/WebView2FlickerFree.gif)
 
 ## Dev Machine
   - CPU: AMD Ryzen 7 5800x
