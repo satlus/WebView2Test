@@ -4,7 +4,7 @@
         xmlns:local="clr-namespace:WebView2Test"
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         Title="WebView2 Tabs Example" Height="800" Width="1280"
-        WindowStyle="None">
+        WindowStyle="None" Background="DarkSlateGray">
 
     <Window.Resources>
         <!-- Resource Dictionary to Hold Styles -->
@@ -62,8 +62,8 @@
         <!-- Tab Control for Content -->
         <TabControl x:Name="TabControl1" Grid.Row="1" Padding="0" Margin="0">
             <!-- First Tab -->
-            <TabItem Padding="0" Margin="0">
-                <Grid>
+            <TabItem Padding="0" Margin="0" Background="Black">
+                <Grid Background="Black">
                     <!-- Define rows and columns TODO: move this into a userControl -->
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -74,9 +74,15 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <wv2:WebView2 x:Name="perspective1" Source="https://perspective.finos.org/blocks/movies/index.html" Grid.Row="0" Grid.Column="0"/>
-                    <wv2:WebView2 x:Name="perspectice2" Source="https://perspective.finos.org/blocks/movies/index.html" Grid.Row="0" Grid.Column="1"/>
+                    <wv2:WebView2 x:Name="perspective2" Source="https://perspective.finos.org/blocks/movies/index.html" Grid.Row="0" Grid.Column="1"/>
                     <wv2:WebView2 x:Name="perspective3" Source="https://perspective.finos.org/blocks/movies/index.html" Grid.Row="1" Grid.Column="0"/>
                     <wv2:WebView2 x:Name="perspective4" Source="https://perspective.finos.org/blocks/movies/index.html" Grid.Row="1" Grid.Column="1"/>
+                    <Image x:Name="Snapshot1" Grid.Row="0" Grid.Column="0" Visibility="Collapsed" />
+                    <Image x:Name="Snapshot2" Grid.Row="0" Grid.Column="1" Visibility="Collapsed" />
+                    <Image x:Name="Snapshot3" Grid.Row="1" Grid.Column="0" Visibility="Collapsed" />
+                    <Image x:Name="Snapshot4" Grid.Row="1" Grid.Column="1" Visibility="Collapsed" />
+
+
                 </Grid>
             </TabItem>
             <TabItem >
