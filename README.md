@@ -3,7 +3,7 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
 
 *This is proof-of-concept code, ugly, and shouldn't in any way be used in production*
 
-![webview2-ux](WebView2Test/docs/webview2-wpf-test.gif)
+![webview2-ux](WebView2Test/docs/WebView2FlickerFree.Tab1.mp4)
 
 ## Observations
   - WebView2 renderering seems to use significantly less memory than chromium/electron
