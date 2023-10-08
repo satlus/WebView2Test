@@ -5,10 +5,16 @@ WPF tabbed Desktop Window UX that renders multiple webview2 instances.
 
 ![webview2-ux](WebView2Test/docs/WebView2FlickerFree.Tab1.mp4)
 
+## Dev Machine
+  - CPU: AMD Ryzen 7 5800x
+  - RAM: 32GB DDR4-3200
+  - GPU: RTX 3090
+
 ## Observations
   - WebView2 renderering seems to use significantly less memory than chromium/electron
   - Initial loading of the webview content is reasonably fast, but may require UX treatment to feel seeamless in certain cases; this could be managed at the container level with the appropriate hooks
-  - Resizing windows is jank, and does not feel smooth; other approaches (off screen rendering, transitions) may be needed
+  - ~~Resizing windows is jank, and does not feel smooth; other approaches (off screen rendering, transitions) may be needed~~
+    - After updating to the latest webview2 controller and setting webview2.DefaultBackgroundColor this is looking much better
   - More complete tab switching UX (drag & drop), is not implemented. It needs to be implemented to assess performance impact
   - A comparative analysis should be done between WPF-WV2, CPPWIN32-WV2, ELectron-Chromium, and MAUI-WV2 to understand framework overhead and perf characteristics
 
